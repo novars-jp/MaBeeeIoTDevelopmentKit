@@ -67,7 +67,8 @@ MaBeeeIoTDevelopmentKitはNordic Semiconductor社製nRF51822を搭載してい�
 
 本レポジトリのexampleフォルダ内にサンプルプログラムがあります．
 
-- ble_app_beacon ビーコンのサンプル
+- **ble_app_beacon** ビーコンのサンプル
+- **accelerometer** 定番の[AE-LIS3DH加速度センサモジュール](http://akizukidenshi.com/catalog/g/gK-06791/)をTWI(I2C互換2線通信規格)経由でコントロールするサンプルコードです。※AE-LIS3DHは裏面3箇所のジャンパをすべてショートさせてください。※ログの確認にはSegger J-Link RTT Viewerが必要です。
 
 ## ベース基板回路図
 
